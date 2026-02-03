@@ -1,0 +1,277 @@
+/* Kavisha Ranasinghe 
+Date: 18 1 2026
+Version Assignment 2
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* GlOBAL STYLES
+---------------------------------------
+*/ 
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #1C1C1C;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    display: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+a {
+    color: #1E90FF
+}
+
+a:visited {
+    color: #B22222
+}
+
+#wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+} 
+/* HEADER
+---------------------------------------
+*/ 
+header {
+    background: #2f261d url(images/cover.jpg);
+    height: 500px;
+    width: 100%;
+}
+
+header img {
+    position: relative;
+    top: 20px; left: 50px;
+    display: block;
+    z-index: +1;
+}
+
+/* NAVIGATION
+---------------------------------------
+*/ 
+nav {
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 100%;
+    padding-top: 45px;
+}
+
+nav ul {
+    padding-left: 400px;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #FF5F1F;
+    text-decoration: none;
+    padding: 10px 20px 15px 20px;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #FF5F1F;
+}
+
+nav a:hover {
+    color: #E5AA70;
+}
+
+
+nav span {
+    padding: 10px 20px 15px 20px;
+    background-color: #E5AA70;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* CONTENT 1
+---------------------------------------
+*/ 
+#explore {
+    background-color: #D3D3D3;
+    display: flex;
+    padding: 25px;
+}
+
+#explore img {
+    max-width: 40%;
+    padding-left: 25px;
+}
+
+#explore h2 {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#explore div {
+    padding-left: 25px; 
+}
+
+#about {
+    background-color: #D3D3D3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#about h2 {
+    margin: 0 auto;
+}
+
+#about div {                                                                                                                        
+   max-width: 80%;
+   padding-left: 100px;
+}
+
+#destination {
+    background-color: #D3D3D3;
+}
+
+#destination h2 {
+    margin: 0;
+    padding-top: 20px;
+}
+
+#destination p {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#destination div {
+    max-width: 90%;
+    padding-left: 50px;
+}
+
+#traveltips {
+    background-color: #D3D3D3
+}
+
+#traveltips img {
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#traveltips h2 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#traveltips p {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#traveltips section {
+    max-width: 90%;
+    padding-left: 50px;
+}
+
+#contact {
+    background-color: #D3D3D3
+}
+
+#contact h2 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#contact section {
+    max-width: 90%;
+    padding-left: 50px;
+}
+
+#contact iframe {
+    padding-bottom: 20px;
+}
+/* CONTENT 2
+---------------------------------------
+*/ 
+#video {
+    background-color: #96DED1;
+    padding: 25px;
+}
+
+#video h2 {
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+#video div {
+    gap: 200px;
+    text-align: center;
+}
+
+#video a {
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    background-color: #DC143C;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#video a:hover {
+    background-color: #8B0000
+}
+
+#rowone, #rowtwo {
+    display: flex;
+    text-align: center;
+    background-color: #D3D3D3;
+    height: 453px;
+}
+
+#rowone section, #rowtwo section {
+    flex: 1; 
+    padding: 20px;
+}
+
+/* FOOTER
+---------------------------------------
+*/ 
+
+footer ul {
+    display: flex;
+    background-color: #C04000;
+    color: #ffffff;
+	list-style: none;
+	font-size: 1em;
+	gap: 40px;
+	justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
